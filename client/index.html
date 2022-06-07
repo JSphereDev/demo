@@ -1,1 +1,11 @@
-Demo App
+<html>
+    <head>
+        <script>
+            fetch('/app/server/index/message')
+                .then((response) => response.text())
+                .then((data) => document.body.innerHTML = data)
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
