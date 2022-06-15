@@ -2,7 +2,7 @@ import {
     navigateTo,
     registerRoute,
     app
-} from 'https://raw.githubusercontent.com/GreenAntDev/jsphere-etc/main/client/lib/jsphere.js';
+} from '/etc/client/lib/jsphere.js';
 
 // REGISTER APPLICATION ROUTES
 // registerRoute('/', viewTicTacToe);
